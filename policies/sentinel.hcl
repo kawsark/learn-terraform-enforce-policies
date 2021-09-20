@@ -18,8 +18,8 @@ policy "restrict-vm-size" {
     enforcement_level = "advisory"
 }
 
-policy "allowed-terraform-version" {
-  enforcement_level = "advisory"
+policy "whitelist-providers" {
+    enforcement_level = "advisory"
 }
 
 policy "limit-cost" {
