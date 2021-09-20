@@ -9,7 +9,6 @@ import "tfconfig-functions" as config
 # List of whitelisted providers
 whitelist = [
   "aws",
-  "azurerm",
   "local",
   "null",
   "random",
