@@ -18,10 +18,6 @@ policy "restrict-vm-size" {
     enforcement_level = "advisory"
 }
 
-policy "whitelist-providers" {
-    enforcement_level = "advisory"
-}
-
 policy "limit-cost" {
     enforcement_level = "soft-mandatory"
 }
