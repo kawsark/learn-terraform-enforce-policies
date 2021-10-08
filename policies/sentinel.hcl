@@ -22,9 +22,9 @@ policy "limit-cost" {
     enforcement_level = "soft-mandatory"
 }
 
-#policy "restrict-resources-by-module-source" {
-#    enforcement_level = "soft-mandatory"
-#}
+policy "restrict-resources-by-module-source" {
+    enforcement_level = "soft-mandatory"
+}
 
 policy "require-all-resources-from-pmr" {
     enforcement_level = "hard-mandatory"
