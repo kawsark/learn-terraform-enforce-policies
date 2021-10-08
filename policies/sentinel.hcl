@@ -22,3 +22,18 @@ policy "limit-cost" {
     enforcement_level = "soft-mandatory"
 }
 
+policy "restrict-resources-by-module-source.sentinel" {
+    enforcement_level = "soft-mandatory"
+}
+
+policy "require-all-resources-from-pmr.sentinel" {
+    enforcement_level = "hard-mandatory"
+}
+
+policy "prohibited-resources.sentinel" {
+    enforcement_level = "soft-mandatory"    
+}
+
+policy "restrict-aks-clusters.sentinel" {
+    enforcement_level = "soft-mandatory"
+}
