@@ -34,6 +34,6 @@ policy "require-all-resources-from-pmr" {
 #    enforcement_level = "soft-mandatory"    
 #}
 
-policy "restrict-aks-clusters" {
-    enforcement_level = "soft-mandatory"
-}
+#policy "restrict-aks-clusters" {
+#    enforcement_level = "soft-mandatory"
+#}
