@@ -35,5 +35,5 @@ policy "prohibited-resources" {
 }
 
 policy "restrict-aks-clusters" {
-    enforcement_level = "soft-mandatory"
+    enforcement_level = "advisory"
 }
